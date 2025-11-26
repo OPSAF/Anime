@@ -78,7 +78,7 @@ def crawl_bangumi_data_safe():
         
         # 使用更稳定的URL和选择器
         test_urls = [
-            "https://bangumi.tv/anime/browser?sort=hot",
+            "https://bangumi.tv/anime/browser/?sort=collects",
             "https://bangumi.tv/anime/browser?sort=rank"
         ]
         
@@ -455,3 +455,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
